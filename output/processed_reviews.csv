@@ -1,0 +1,21 @@
+review_id,user_id,review_text,product,category,sentiment,issue_summary,confidence
+1,U101,I bought Laptop A and Phone X. Laptop A battery is terrible.,Laptop A,Battery,Negative,Battery is terrible,0.9
+2,U102,Phone X performance is slow but camera is good.,Phone X,Performance,Mixed,Performance is slow,0.8
+3,U103,Laptop A overheats after 30 minutes of use.,Laptop A,Performance,Negative,Overheats after 30 minutes of use,0.9
+4,U104,Tablet Z screen resolution is amazing and very sharp.,Tablet Z,Display,Positive,Screen resolution is amazing and very sharp,0.95
+5,U105,Laptop A keyboard stopped working within a week.,Laptop A,Build Quality,Negative,Keyboard stopped working within a week,0.9
+6,U101,Phone X battery drains too fast and heats up.,Phone X,Battery,Negative,Battery drains too fast and heats up,0.9
+7,U106,Tablet Z is lightweight and easy to carry.,Tablet Z,Build Quality,Positive,Lightweight and easy to carry,0.9
+8,U107,Laptop A performance is extremely slow while gaming.,Laptop A,Performance,Negative,Performance is extremely slow while gaming,0.9
+9,U108,Phone X camera quality is excellent but battery life is poor.,Phone X,Camera,Mixed,Battery life is poor,0.8
+10,U109,Laptop A makes loud fan noise and gets very hot.,Laptop A,Performance,Negative,Fan noise and overheating,0.9
+11,U110,Tablet Z charging port is loose and unreliable.,Tablet Z,Build Quality,Negative,Charging port is loose and unreliable,0.9
+12,U102,Phone X screen flickers occasionally.,Phone X,Display,Negative,Screen flickers occasionally,0.85
+13,U103,Laptop A battery backup improved after update.,Laptop A,Battery,Positive,Battery backup improved after update,0.9
+14,U111,Laptop A touchpad is unresponsive sometimes.,Laptop A,Build Quality,Negative,Touchpad is unresponsive sometimes,0.9
+15,U112,Phone X speaker volume is too low.,Phone X,Audio,Negative,Speaker volume is too low,0.9
+16,U113,Tablet Z battery drains overnight.,Tablet Z,Battery,Negative,Battery drains overnight,0.9
+17,U114,Laptop A works perfectly for office tasks.,Laptop A,Performance,Positive,Works perfectly for office tasks,0.9
+18,U115,Phone X freezes randomly during calls.,Phone X,Software,Negative,Freezes randomly during calls,0.9
+19,U116,Laptop A screen brightness fluctuates.,Laptop A,Display,Negative,Screen brightness fluctuates,0.9
+20,U117,Tablet Z performance is smooth and fast.,Tablet Z,Performance,Positive,Performance is smooth and fast,0.95

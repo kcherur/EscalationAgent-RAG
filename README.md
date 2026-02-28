@@ -8,3 +8,11 @@ Customer support teams often overlook repeated product problems that are buried 
 
 Architectural Innovation:
 This project implements a hybrid retrieval-reasoning architecture that fuses structured data features with unstructured textual embeddings to enable semantic history analysis with aggregation-driven decision logic. Pure RAG or semantic search systems lack this cross-signal aggregation capability, which is essential for detecting recurring patterns and triggering escalation workflows.
+
+## Setup
+python --version
+python -m venv .venv
+.venv\scripts\activate
+pip --version
+python -m pip install --upgrade pip
+pip install -r requirement.txt

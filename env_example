@@ -1,0 +1,15 @@
+AZURE_AI_PROJECT_CONNECTION_STRING='foundaryproect-url'
+MODEL_DEPLOYMENT_NAME='llmmodelname'
+
+
+# Azure OpenAI means text embeddings model deployment and endpoint
+AZURE_OPENAI_ENDPOINT='azureopenaiendpoint'
+AZURE_OPENAI_KEY='openAIKey'
+EMBEDDING_DEPLOYMENT='text-embedding-model'
+VECTOR_SEARCH_API_VERSION='api-version'
+
+# Azure AI Search
+AZURE_SEARCH_ENDPOINT='azsearchendpoint' 
+AZURE_SEARCH_KEY='searchKey'
+SEARCH_INDEX_NAME='inexName'
+

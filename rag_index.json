@@ -1,0 +1,61 @@
+{
+  "name": "reviews-index",
+  "fields": [
+    {
+      "name": "review_id",
+      "type": "Edm.String",
+      "key": true
+    },
+    {
+      "name": "user_id",
+      "type": "Edm.String",
+      "filterable": true
+    },
+    {
+      "name": "product",
+      "type": "Edm.String",
+      "searchable": true,
+      "filterable": true,
+      "facetable": true
+    },
+    {
+      "name": "category",
+      "type": "Edm.String",
+      "searchable": true,
+      "filterable": true,
+      "facetable": true
+    },
+    {
+      "name": "issue_summary",
+      "type": "Edm.String",
+      "searchable": true
+    },
+    {
+      "name": "embedding",
+      "type": "Collection(Edm.Single)",
+      "searchable": true,
+      "dimensions": 1536,
+      "vectorSearchProfile": "vector-profile"
+    }
+  ],
+  "vectorSearch": {
+    "algorithms": [
+      {
+        "name": "hnsw-algorithm",
+        "kind": "hnsw",
+        "hnswParameters": {
+          "m": 4,
+          "efConstruction": 400,
+          "efSearch": 500,
+          "metric": "cosine"
+        }
+      }
+    ],
+    "profiles": [
+      {
+        "name": "vector-profile",
+        "algorithm": "hnsw-algorithm"
+      }
+    ]
+  }
+}
